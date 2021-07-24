@@ -46,7 +46,7 @@ SELECT nombre, LENGTH(nombre) AS longitud FROM pelicula;
 
 -- Consultar cual es la longitud más grande entre todos los títulos de las películas
 
-SELECT MAX(LENGTH(nombre)) FROM pelicula;
+SELECT MAX(LENGTH(nombre)) FROM
 
 
 -- SELECT * FROM pelicula;
